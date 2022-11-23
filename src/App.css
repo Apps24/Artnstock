@@ -1,0 +1,76 @@
+a {
+  text-decoration: none;
+}   
+
+.slick-dots {
+  bottom:  10px !important;
+}
+
+.slick-next, .slick-prev {
+  color: black !important;
+  z-index: 9 !important;
+  width: max-content !important;
+  height: max-content !important;
+}
+
+.slick-next {
+  right: 20px !important;
+
+}
+
+.slick-prev {
+  left: 20px !important;
+}
+
+.slick-dots li button:before {
+  font-size: 10px !important;
+  color: #d1d1d1 !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #ff796d !important;
+}
+
+/* .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  width: 49%;
+  background: #ffffff;
+  border: none;
+  color: #bbbbbb
+}
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root:hover {
+
+  border: none;
+  
+} */
+
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
+  position: initial !important;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+  border: none !important;
+  border-bottom-right-radius: 30px !important;
+  border-top-right-radius: 30px !important;
+}
+
+.swatches-picker div:first-child div:first-child{
+  /* position: static !important; */
+  box-shadow: none !important;
+}
+
+.swatches-picker div:first-child div:last-child div:first-child div:first-child div span div{
+  /* position: static !important; */
+  border-radius: 100px !important;
+  height: 20px !important;
+  width: 20px !important;
+  margin: auto !important;
+}
+
+.swatches-picker div:first-child div:last-child div:first-child div:first-child div{
+  /* position: static !important; */
+  width: 20px !important;
+  margin-right: 5px !important;
+}
+
+.StepContainer-0-2-2 {
+  flex: 0 !important;
+  padding: 0 !important;
+}

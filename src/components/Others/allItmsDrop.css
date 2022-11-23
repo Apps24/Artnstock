@@ -1,0 +1,49 @@
+.main {
+    position: relative;
+    cursor: pointer;
+}
+
+.topBtn {
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+    position: relative;
+}
+
+.dropdownMenu {
+    z-index: 999;
+    position: absolute;
+    top: 30px;
+    left: -15px;
+    width: 142px;
+
+}
+
+.ulList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    border-radius: 16px;
+     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.listItem {
+    display: flex;
+    align-items: center;
+    padding: 10px 30px 10px 15px;
+    font-size: 13px;
+    color: #757575;
+    line-height: 39px;
+    height: 38px;
+    
+}
+
+.listItem:not(:last-child){
+    border-bottom: 1px solid #efefef;
+
+}
+
+.listIcon {
+    margin-right: 10px;
+}

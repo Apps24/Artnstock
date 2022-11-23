@@ -1,0 +1,183 @@
+.mainBar {
+    padding: 0px 22px;
+    padding-bottom: 10px;
+}
+
+.mainBar .navbar  {
+    padding: 10px 0 !important;
+}
+
+/* .navbar {
+    padding: 10px 0 !important;
+} */
+
+.nav-item {
+    color: #757575;
+  font-size: 1.4rem;
+  font-weight: 600;
+  /* line-height: 2rem; */
+  text-transform: uppercase;
+  margin-left: 22px;
+}
+
+.navbar-nav {
+    align-items: center !important;
+}
+
+.sellOnArtBtn {
+    background: linear-gradient(90deg, #3dfcdc 0%, #9efd58 49.7%, #ffe82a 100%);
+    border: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    /* height: 2.8rem; */
+    width: 11.3rem;
+    border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px 0;
+}
+
+.rightSearch {
+    /* z-index: 999; */
+    display: flex;
+}
+
+.dropdown .btn {
+    color: #757575;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2rem;
+    background: none;
+    border: none;
+    padding: 0 15px;
+    border-left: 1px solid #DADADA;
+    border-right: 1px solid #DADADA;
+    height: -webkit-fill-available;
+}
+
+.searchBtn {
+    background: #BBBBBB;
+    border: none;
+    outline: none;
+    color: #333333;
+    padding: 14px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2rem;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.dropdown-menu {
+    border-radius: 16px;
+    background-color: #ffffff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: max-content;
+    padding: 0;
+    border: none;
+}
+
+.dropdown-toggle {
+    background: none;
+    /* border: none; */
+    border-radius: 0;
+    border-color: #DADADA;
+    color: #757575;
+}
+
+.dropdown-menu li {
+    padding: 10px 30px 10px 15px;
+    font-size: 13px;
+    color: #757575;
+    /* line-height: 39px; */
+}
+
+.dropdown-menu img {
+    margin-right: 10px;
+}
+
+.dropdown-menu li:not(:last-child) {
+    border-bottom: 1px solid #efefef;
+}
+
+.searchByImage {
+    color: #757575;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2rem;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0 14px;
+}
+
+.searchBtn img, .searchByImage img {
+    margin-right: 8px;
+}
+
+.rightMenu {
+    display: flex;
+    position: absolute;
+    right: 22px;
+}
+
+.rightMenu .nav-item {
+    margin-left: 13px;
+}
+
+.searchDiv {
+    background: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+    /* overflow: hidden; */
+}
+
+.searchBar {
+    border: none;
+    background: none;
+    outline: none;
+    /* color: #BBBBBB; */
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    padding: 12px 20px 12px 20px;
+}
+
+.searchBar::placeholder {
+    color: #BBBBBB;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+}
+
+@media screen and (max-width: 780px) {
+    .sellOnArtBtn, .slick-arrow {
+        display: none !important;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .searchBtn, .dropdown .btn {
+        padding: 5px;
+    }
+
+    .mainBar{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .searchBar {
+        padding: 5px 10px;
+    }
+
+    .rightMenu {
+        display: none;
+    }
+}

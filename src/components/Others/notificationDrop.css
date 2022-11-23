@@ -1,0 +1,50 @@
+.main {
+    position: relative;
+}
+
+.title {
+    color: #dc399b;
+    margin: 0;
+    font-size: 12px;
+}
+
+.dropDownCon {
+    z-index: 999;
+    position: absolute;
+    background: #ffffff;
+    top: 30px;
+    right: 5px;
+    width: 350px;
+    height: 250px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 16px;
+    padding: 22px 20px;
+}
+
+.hr {
+    width: 100%;
+    color:#efefef;
+    margin: 10px 0;
+}
+
+.notificationDiv {
+    display: flex;
+    align-items: center;
+}
+
+.notTitle {
+    font-size: 15px;
+    line-height: 17px;
+    color: #363636;
+    margin: 0;
+}
+
+.notDesc{
+    font-size: 11px;
+    color: #757575;
+    margin: 0;
+}
+
+.notImg{
+    margin-right: 10px;
+}

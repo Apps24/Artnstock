@@ -1,0 +1,15 @@
+.css-1aquho2-MuiTabs-indicator {
+    height: 100% !important;
+    background-color: #bbbbbb !important;
+}
+
+.css-1694cu7-MuiButtonBase-root-MuiTab-root.Mui-selected, .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    z-index: 9 !important;
+    color: #333333 !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root , .css-1694cu7-MuiButtonBase-root-MuiTab-root{
+    font-size: 15px !important;
+    color: #757575 !important;
+    font-weight: 550 !important;
+}

@@ -1,0 +1,22 @@
+image: node:14.15.4
+options:
+  size: 2x
+pipelines:
+  branches:
+    "{dev}":
+      - step:
+          name: Build & Test - Dev
+          caches:
+            - node
+          deployment: dev
+          script:
+            - apt-get update
+            - apt-get install zip jq -y
+            - npm install
+            - curl -O https://bootstrap.pypa.io/pip/2.6/get-pip.py
+            - python get-pip.py
+            - pip install awscli
+            - echo "Build artnstock dev"
+            - export ZIP_FILE=artnstock:$BITBUCKET_COMMIT.zip
+            - npm run build
+            - aws s3 cp build/ s3://artnstock --recursive

@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+    font-family: 'Heebo', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.6rem;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+
+code {
+  font-family: 'Heebo', sans-serif;
+}
+
+.css-dk24d0-MuiButtonBase-root-MuiCheckbox-root {
+  padding: 0 !important;
+}
+
+.css-1869usk-MuiFormControl-root {
+  width: 97% !important;
+  margin: 0 !important;
+}
+
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: lightGray !important;
+}
+
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  border-radius: 50px !important;
+}
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root:hover {
+  outline: none !important;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 10.5px 14px !important;
+}
+
+a{
+  color: inherit !important;
+  text-decoration: none !important;
+}

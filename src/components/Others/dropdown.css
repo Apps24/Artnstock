@@ -1,0 +1,109 @@
+.dd-wrapper {
+    position: relative;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: white;
+    width: 100%;
+    height: 3.9rem;
+color: #bbbbbb;
+font-size: 1.3rem;
+}
+.dd-wrapper1 {
+    position: relative;
+    background: white;
+   border-radius: 20px;
+   width: 100%;
+height: 3.9rem;
+color: #bbbbbb;
+font-size: 1.3rem;
+}
+
+.dd-header, .dd-list-item {
+    width: 100%;
+    background: transparent; 
+}
+
+.dd-list-item {
+    background: white;
+    padding: 5px 0;
+    border: none;
+    text-align: left;
+    padding-left: 10px;
+    border-top: 1px solid #efefef;
+    color: #757575;
+}
+
+/* .dd-list-item:not(:last-child) {
+    border-bottom: none;
+
+} */
+
+.dd-header-title {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.dd-header {
+    border: 1px solid #d6d6d6;
+    border-radius: 50px;
+    color: #757575;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    height: inherit;
+}
+.dd-header1 {
+    border: 1px solid #d6d6d6;
+    border-bottom: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: #757575;
+    padding: 5px 0;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    height: inherit;
+    justify-content: space-between;
+}
+
+.dd-list {
+    position: absolute;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #d6d6d6;
+    border-top: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background: white;
+    height: 300px;
+    overflow-y: scroll;
+    z-index: 99;
+}
+
+
+.dd-list::-webkit-scrollbar {
+    width: 8px;
+
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ffffff; 
+    border-bottom-right-radius: 20px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #bbbbbb; 
+    border-radius: 20px;
+
+  }
+  
+ 
